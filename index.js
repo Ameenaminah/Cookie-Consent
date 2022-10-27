@@ -28,7 +28,7 @@ function consentFormFunc(e) {
   const fullName = consentFormData.get("fullName");
   modalText.innerHTML = `
   <div class="modal-inner-loading">
-    <img src="images/loading.gif" class="loading">
+    <img src="loading.gif" class="loading">
     <p id="uploadText">
         Uploading your data to the web...
     </p>
